@@ -41,6 +41,14 @@ const Body = () => {
          </div>
        </div>
 
+        <div style={styles.card}>
+            <img src={"/polina-avatar.jpg"} alt="Polina Bakhmetieva" style={styles.photo} />
+            <div style={styles.textContainer}>
+                <h2 style={styles.name}>Polina Bakhmetieva</h2>
+                <p style={styles.position}>Project Manager</p>
+            </div>
+        </div>
+
     </main>
   );
 };
