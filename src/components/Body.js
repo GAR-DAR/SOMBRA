@@ -4,13 +4,12 @@ const Body = () => {
   return (
     <main style={styles.body}>
       <div style={styles.card}>
-        <img src={"/avatar-default.png"} alt="John Doe" style={styles.photo} />
+        <img src={"/ivan.webp"} alt="Ivan Hrybanov" style={styles.photo} />
         <div style={styles.textContainer}>
-          <h2 style={styles.name}>John Doe</h2>
-          <p style={styles.position}>Software engineer</p>
+          <h2 style={styles.name}>Ivan Hrybanov</h2>
+          <p style={styles.position}>QA</p>
         </div>
       </div>
-
       <div style={styles.card}>
         <img src={"/petro.jpeg"} alt="Petro Broda" style={styles.photo} />
         <div style={styles.textContainer}>
@@ -18,7 +17,20 @@ const Body = () => {
           <p style={styles.position}>Kotlin engineer</p>
         </div>
       </div>
-      
+          <div style={styles.card}>
+              <img src={"/bohdan_pic.jpg"} alt="Bohdan Bilynskiy" style={styles.photo} />
+              <div style={styles.textContainer}>
+                  <h2 style={styles.name}>Bohdan Bilynskiy</h2>
+                  <p style={styles.position}>Business analyst</p>
+        </div>
+      </div>
+          <div style={styles.card}>
+              <img src={"/ira.jpg"} alt="Ira Grabovenska" style={styles.photo} />
+              <div style={styles.textContainer}>
+                  <h2 style={styles.name}>Ira Grabovenska</h2>
+                  <p style={styles.position}>Backend developer</p>
+         </div>
+       </div>
     </main>
   );
 };
