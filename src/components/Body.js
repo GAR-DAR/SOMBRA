@@ -9,6 +9,16 @@ const Body = () => {
           <h2 style={styles.name}>Ivan Hrybanov</h2>
           <p style={styles.position}>QA</p>
         </div>
+
+          </div>
+          <div style={styles.card}>
+              <img src={"/kruk-oleg.jpg"} alt="Viktor Hvozdyk" style={styles.photo} />
+              <div style={styles.textContainer}>
+                  <h2 style={styles.name}>Viktor Hvozdyk</h2>
+                  <p style={styles.position}>Front-end dev</p>
+              </div>
+          </div>
+
       </div>
       <div style={styles.card}>
         <img src={"/petro.jpeg"} alt="Petro Broda" style={styles.photo} />
@@ -31,6 +41,7 @@ const Body = () => {
                   <p style={styles.position}>Backend developer</p>
          </div>
        </div>
+
     </main>
   );
 };
