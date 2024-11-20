@@ -18,6 +18,7 @@ const Body = () => {
           <p style={styles.position}>Kotlin engineer</p>
         </div>
       </div>
+      
     </main>
   );
 };
